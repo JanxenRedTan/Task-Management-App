@@ -2,6 +2,10 @@
 
 A minimal, full-stack task management app with a React frontend and Node.js/Express backend. Tasks are persisted in a local JSON file.
 
+## 🎥 Demo Video
+
+[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=BNDc5K88R0E)
+
 ## Project Structure
 
 ```
