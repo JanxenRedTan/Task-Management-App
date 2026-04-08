@@ -1,0 +1,43 @@
+:root {
+  --bg: #0f0f11;
+  --surface: #17171a;
+  --surface2: #1f1f24;
+  --border: #2e2e36;
+  --text: #f0eff4;
+  --text-muted: #6e6e82;
+  --text-dim: #3e3e52;
+
+  --todo: #4f6ef7;
+  --todo-bg: rgba(79, 110, 247, 0.1);
+  --todo-border: rgba(79, 110, 247, 0.25);
+
+  --inprogress: #f7a94f;
+  --inprogress-bg: rgba(247, 169, 79, 0.1);
+  --inprogress-border: rgba(247, 169, 79, 0.25);
+
+  --done: #4fca7e;
+  --done-bg: rgba(79, 202, 126, 0.1);
+  --done-border: rgba(79, 202, 126, 0.25);
+
+  --danger: #f74f4f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

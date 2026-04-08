@@ -1,0 +1,9 @@
+{
+  "name": "trello-app",
+  "version": "1.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "start:server": "npm start --prefix server",
+    "start:client": "npm start --prefix client"
+  }
+}
