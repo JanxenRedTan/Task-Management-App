@@ -85,7 +85,9 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public (only ignore Gatsby's public, not React's client/public)
+# Uncomment the line below if you have a Gatsby site in a subdirectory
+# public/
 
 # Vuepress build output
 .vuepress/dist
